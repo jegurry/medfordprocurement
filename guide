@@ -1,0 +1,1549 @@
+<!DOCTYPE html> 
+<html> 
+
+<head>
+	<meta charset="utf-8"/>
+	<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" />
+	<meta name="apple-mobile-web-app-capable" content="no" />
+	<link rel="apple-touch-icon" href="images/icon.png"/> 
+	<meta name="apple-mobile-web-app-status-bar-style" content="black" />  
+
+	<meta property="og:title" content="Medford Procurement Guide"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:url" content="http://wejudicate.github.io/incourt/"/>
+    <meta property="og:image" content="http://wejudicate.github.io/incourt/images/Adams.jpg"/>
+    <meta property="og:site_name" content="Medford Procurement Guide"/>
+    <meta property="og:description"
+          content="A collection of Massachusetts/Medford procurement materials and instructions for employees of the City of Medford."/>
+
+	<title>City of Medford Purchasing Guide</title> 
+
+	<!-- jQuery Mobile scripts and style Sheets -->
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" />
+	<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+	<!-- jQuery settings -->
+	
+	<script src="js_bin/script_lib.2014-08-06.js"></script>
+		
+	<script type="text/javascript">
+	  var updates_now = "1";
+	  var updates_seen = readCookie('updates');
+	  var updates_unseen = updates_now - updates_seen;
+	  
+	  $.mobile.defaultPageTransition = 'slide';
+	  
+	  
+	</script>
+	
+	<style>
+	
+	p.order1 {
+    	padding-top: 1cm;
+    	padding-bottom: 0cm;
+       	padding-right: 1cm;
+     	padding-left: 1cm;
+    	text-align: justify;
+	}
+	p.order2 {
+    	padding-top: 0cm;
+    	padding-bottom: 0cm;
+       	padding-right: 1cm;
+     	padding-left: 1cm;
+    	text-align: justify;
+	}		
+	</style>
+
+</head> 
+
+<body> 
+
+
+<!-- Start of first page: #home -->
+<div data-role="page" id="home">
+	<div data-role="header" data-position="fixed" data-theme="b">
+		<a href="#info" data-iconpos="notext" data-icon="info" data-transition="slideup"></a>
+		<h1>City of Medford Procurement Guide</h1>	
+	</div> 
+	<div id="home_body_crim" data-role="content" style="text-align:left;">	
+			<ul data-role="listview">
+				<li><a href="#find">Find a Statewide Contract</a></li>
+				<li><a href="#vend">Search for a Vendor</a></li>
+				<li><a href="#order">Ordering Instructions</a></li>
+				<li><a href="updates.html" onClick="createCookie('updates',updates_now,36500);">Updates<span class="ui-li-count"><script type="text/javascript">document.write(updates_unseen);</script></span></a></li>		
+				<li><a href="mailto:jgurry@medford.org" target="_top"><h3>Contact Curator</h2><p>Tap to email. Suggestions welcome.</p></a></li>
+
+			</ul>
+ 	</div><!-- /content -->
+</div><!-- /#home -->
+
+
+<!-- Start of first page: #find -->
+<div data-role="page" id="find">
+	<div data-role="header" data-position="fixed" data-theme="b">
+		<a href="#find" data-rel="back" data-iconpos="notext" data-icon="arrow-l" data-direction="reverse"></a>
+		<h1>Find a Statewide Contract</h1>
+		<a href="#about_find" data-iconpos="notext" data-theme="c" data-icon="info" data-transition="slideup"></a>
+	</div>
+	<div id="find_body" data-role="content" style="text-align:left;">	
+		<ul data-role="listview" data-filter="true" data-filter-placeholder="Search Titles..." data-filter-theme="c" data-theme="c" data-divider-theme="b">
+				<li data-role="list-divider">PLEASE CHOOSE A CATEGORY:</li>
+				<li><a href="#cloth">Clothing &amp; Footwear</a></li>
+				<li><a href="#energy">Energy, Utilities &amp; Fuel</a></li>
+				<li><a href="#facil">Facilities Maintenance &amp; Repair</a></li>
+				<li><a href="#fire">Fire/EMS</a></li>
+				<li><a href="#food">Food &amp; Groceries</a></li>
+				<li><a href="#it">Information Technology</a></li>		
+				<li><a href="#law">Public Safety, Law Enforcement &amp; Protection</a></li>
+				<li><a href="#office">Office, Recreation &amp; Educational Supplies</a></li>
+				<li><a href="#roads">Vehicles, Transportation &amp; Road Maintenance</a></li>
+		</ul>
+ 	</div><!-- /content -->
+</div><!-- /#find -->
+
+<!-- Start of first page: #cloth -->
+<div data-role="page" id="cloth">
+	<div data-role="header" data-position="fixed" data-theme="b">
+		<a href="#home" data-rel="back" data-iconpos="notext" data-icon="arrow-l" data-direction="reverse"></a>
+		<h1>Clothing &amp; Footwear</h1>
+		<a href="#about_cloth" data-iconpos="notext" data-theme="c" data-icon="info" data-transition="slideup"></a>
+	</div>
+	<div id="cloth_body" data-role="content" style="text-align:left;">	
+			<ul data-role="listview" data-theme="c" data-divider-theme="b" >
+			<li><a href="#clt07">CLT07: Clothing, Uniforms, Footwear, Accessories &amp; Personal Care Products</a></li>
+			</ul>
+ 		</div><!-- /content -->
+</div><!-- /#cloth -->
+
+<!-- Start of first page: #energy -->
+<div data-role="page" id="energy">
+	<div data-role="header" data-position="fixed" data-theme="b">
+		<a href="#home" data-rel="back" data-iconpos="notext" data-icon="arrow-l" data-direction="reverse"></a>
+		<h1>Energy, Utilities &amp; Fuel</h1>
+		<a href="#about_energy" data-iconpos="notext" data-theme="c" data-icon="info" data-transition="slideup"></a>
+	</div>
+	<div id="energy_body" data-role="content" style="text-align:left;">	
+			<ul data-role="listview" data-filter="true" data-filter-placeholder="Search..." data-filter-theme="c" data-theme="c" data-divider-theme="b" >
+				<li data-role="list-divider">Most Commonly Used Contracts</li>
+				<li><a href="#ene33">ENE33: Bio-Diesel</a></li>
+				<li><a href="#ene40">ENE40: Ultra Low Sulfur Diesel</a></li>
+				<li><a href="#ene41">ENE41: Gasoline</a></li>
+				<li data-role="list-divider">Other Contracts</li>
+				<li><a href="#ene34">ENE34: Heating Oil</a></li>
+				<li><a href="#ene35">ENE35: Propane</a></li>
+				<li><a href="#ene37">ENE37: Electricity</a></li>
+				<li><a href="#ene38">ENE38: Natural Gas</a></li>
+			</ul>
+ 		</div><!-- /content -->
+</div><!-- /#energy -->
+
+<!-- Start of first page: #facil -->
+<div data-role="page" id="facil">
+	<div data-role="header" data-position="fixed" data-theme="b">
+		<a href="#home" data-rel="back" data-iconpos="notext" data-icon="arrow-l" data-direction="reverse"></a>
+		<h1>Facilities Maintenance &amp; Repair</h1>
+		<a href="#about_facil" data-iconpos="notext" data-theme="c" data-icon="info" data-transition="slideup"></a>
+	</div>
+	<div id="facil_body" data-role="content" style="text-align:left;">	
+			<ul data-role="listview" data-filter="true" data-filter-placeholder="Search..." data-filter-theme="c" data-theme="c" data-divider-theme="b" >
+				<li data-role="list-divider">Most Commonly Used Contracts</li>
+				<li><a href="#fac76">FAC76: Maintenance, Repair &amp; Operations Products, Supplies &amp; Equipment</a></li>
+				<li><a href="#fac82">FAC82: Hazardous/Universal, Medical &amp; Electronic Waste Disposal &amp; Emergency Response</a></li>
+				<li><a href="#fac85">FAC85: Environmentally Preferable Cleaning Products, Program, Equipment &amp; Supplies</a></li>
+				<li><a href="#fac87">FAC87: Recycling Containers, Compost Bins &amp; Rain Barrels</a></li>
+				<li><a href="#fac88">FAC88: Lawns and Grounds, Equipment, Parts &amp; Services</a></li>
+				<li data-role="list-divider">Other Contracts</li>
+				<li><a href="#fac63">FAC63: Carpeting/Flooring Products &amp; Installation</a></li>
+				<li><a href="#fac64">FAC64: Security, Surveillance, Monitoring &amp; Access Control System</a></li>
+				<li><a href="#fac68">FAC68: Demand Response Services</a></li>
+				<li><a href="#fac70">FAC70: Tradespersons</a></li>
+				<li><a href="#fac72">FAC72: Security Services &amp; Fence Rental </a></li>
+				<li><a href="#fac74">FAC74: Pest Control Services</a></li>
+				<li><a href="#fac77">FAC77: Landscaping Services, Tree Trimming, Catch Basin Cleaning, Snow Removal &amp; Related Services</a></li>
+				<li><a href="#fac78">FAC78: Moving Services &amp; State Surplus Disposal Services</a></li>
+				<li><a href="#fac79">FAC79: Landscaping/Green Roof Products, Playground Equipment, Site Amenities &amp; Related Products</a></li>			
+				<li><a href="#fac80">FAC80: Water Treatment Chemicals &amp; Systems</a></li>
+				<li><a href="#fac81">FAC81: Janitorial Services &#40;Environmentally Preferable&#41;</a></li>
+				<li><a href="#fac83">FAC83: Renewable/Alternative Energy Credit</a></li>
+				<li><a href="#fac86">FAC86: Solid Waste &amp; Recycling Services</a></li>
+			</ul>
+ 		</div><!-- /content -->
+</div><!-- /#facil -->
+
+<!-- Start of first page: #fire -->
+<div data-role="page" id="fire">
+	<div data-role="header" data-position="fixed" data-theme="b">
+		<a href="#home" data-rel="back" data-iconpos="notext" data-icon="arrow-l" data-direction="reverse"></a>
+		<h1>Fire/EMS</h1>
+		<a href="#about_fire" data-iconpos="notext" data-theme="c" data-icon="info" data-transition="slideup"></a>
+	</div>
+	<div id="fire_body" data-role="content" style="text-align:left;">	
+			<ul data-role="listview" data-theme="c" data-divider-theme="b" >
+			<li><a href="#fir04">FIR04: Public Safety Equipment, Supplies, Services &amp; Repairs</a></li>
+			</ul>
+ 		</div><!-- /content -->
+</div><!-- /#fire -->
+
+<!-- Start of first page: #food -->
+<div data-role="page" id="food">
+	<div data-role="header" data-position="fixed" data-theme="b">
+		<a href="#home" data-rel="back" data-iconpos="notext" data-icon="arrow-l" data-direction="reverse"></a>
+		<h1>Food &amp; Groceries</h1>
+		<a href="#about_food" data-iconpos="notext" data-theme="c" data-icon="info" data-transition="slideup"></a>
+	</div>
+	<div id="food_body" data-role="content" style="text-align:left;">	
+			<ul data-role="listview" data-filter="true" data-filter-placeholder="Search..." data-filter-theme="c" data-theme="c" data-divider-theme="b" >
+				<li data-role="list-divider">Most Commonly Used Contracts</li>
+				<li><a href="#gro34">GRO34: Bottled Water, Emergency Bottled Water, Water Filtration, Reverse Osmosis, &amp; Coffee Services</a></li>
+				<li data-role="list-divider">Other Contracts</li>
+				<li><a href="#gro27">GRO27: Catering Services, Conference Space &amp; Hotel Room Accommodations</a></li>
+				<li><a href="#gro29">GRO29: Foodservice Supplies &amp; Equipment</a></li>
+				<li><a href="#gro30">GRO30: Prime Grocers</a></li>
+				<li><a href="#gro32">GRO32: Dairy Products</a></li>
+				<li><a href="#gro33">GRO33: Baked Goods</a></li>
+			</ul>
+ 		</div><!-- /content -->
+</div><!-- /#food -->
+
+<!-- Start of first page: #it -->
+<div data-role="page" id="it">
+	<div data-role="header" data-position="fixed" data-theme="b">
+		<a href="#home" data-rel="back" data-iconpos="notext" data-icon="arrow-l" data-direction="reverse"></a>
+		<h1>Information Technology</h1>
+		<a href="#about_it" data-iconpos="notext" data-theme="c" data-icon="info" data-transition="slideup"></a>
+	</div>
+	<div id="it_body" data-role="content" style="text-align:left;">	
+			<ul data-role="listview" data-filter="true" data-filter-placeholder="Search..." data-filter-theme="c" data-theme="c" data-divider-theme="b" >
+				<li data-role="list-divider">Most Commonly Used Contracts</li>
+				<li><a href="#itc47">ITC47: IT Hardware &amp; Services</a></li>
+				<li><a href="#itc54">ITC54: Data Cable Products &amp; Services</a></li>
+				<li><a href="#its58">ITS58: Software Reseller</a></li>
+				<li><a href="#itt40">ITT40: Two-Way Radio Systems, Equipment &amp; Services</a></li>
+				<li data-role="list-divider">Hardware</li>
+				<li><a href="#itc47">ITC47: IT Hardware &amp; Services</a></li>
+				<li><a href="#itc49">ITC49: IT Asset Lease Services</a></li>
+				<li><a href="#itc54">ITC54: Data Cable Products &amp; Services</a></li>
+				<li data-role="list-divider">Software &amp; Services</li>
+				<li><a href="#its19">ITS19: Oracle Software &amp; Services</a></li>
+				<li><a href="#its48">ITS48: ESRI GIS Software &amp; Services</a></li>
+				<li><a href="#its51">ITS51: eDiscovery Services</a></li>
+				<li><a href="#its52">ITS52: IT Accessibility Services</a></li>
+				<li><a href="#its53a">ITS53: IT Staff Augmentation Full Service</a></li>
+				<li><a href="#its53b">ITS53: IT Staff Augmentation Lower Overhead</a></li>
+				<li><a href="#its53c">ITS53: IT Project Services - Geographical Information Systems</a></li>
+				<li><a href="#its53d">ITS53: IT Project Services - Solution Providers</a></li>
+				<li><a href="#its53e">ITS53: IT Project Services - Technical Specialist</a></li>
+				<li><a href="#its58">ITS58: Software Reseller</a></li>
+				<li data-role="list-divider">Telecommunications</li>
+				<li><a href="#itt12">ITT12: Premises Based Tenant/Shared Switch Systems</a></li>
+				<li><a href="#itt19">ITT19: Remote Access &amp; Virtual Private Networking Services</a></li>
+				<li><a href="#itt46">ITT46: Network Services</a></li>
+				<li><a href="#itt50">ITT50: Converged Voice &amp; Data Communications Systems, Services &amp; Equipment </a></li>
+			</ul>
+ 		</div><!-- /content -->
+</div><!-- /#it -->
+
+<!-- Start of first page: #law -->
+<div data-role="page" id="law">
+	<div data-role="header" data-position="fixed" data-theme="b">
+		<a href="#home" data-rel="back" data-iconpos="notext" data-icon="arrow-l" data-direction="reverse"></a>
+		<h1>Law Enforcement</h1>
+		<a href="#about_law" data-iconpos="notext" data-theme="c" data-icon="info" data-transition="slideup"></a>
+	</div>
+	<div id="law_body" data-role="content" style="text-align:left;">	
+			<ul data-role="listview" data-filter="true" data-filter-placeholder="Search..." data-filter-theme="c" data-theme="c" data-divider-theme="b" >
+				<li data-role="list-divider">Most Commonly Used Contracts</li>
+				<li><a href="#law09">LAW09: Firearms, Ammunition, Related Training Products, Services, Accessories &amp; Less than Lethal Munitions</a></li>
+				<li><a href="#law14">LAW14: Body Armor Vests</a></li>
+				<li data-role="list-divider">Other Contracts</li>
+				<li><a href="#fir04">FIR04: Public Safety Equipment, Supplies, Services &amp; Repairs</a></li>
+			</ul>
+ 		</div><!-- /content -->
+</div><!-- /#law -->
+
+<!-- Start of first page: #office -->
+<div data-role="page" id="office">
+	<div data-role="header" data-position="fixed" data-theme="b">
+		<a href="#home" data-rel="back" data-iconpos="notext" data-icon="arrow-l" data-direction="reverse"></a>
+		<h1>Office, Recreation &amp; Educational Supplies</h1>
+		<a href="#about_office" data-iconpos="notext" data-theme="c" data-icon="info" data-transition="slideup"></a>
+	</div>
+	<div id="office_body" data-role="content" style="text-align:left;">	
+			<ul data-role="listview" data-filter="true" data-filter-placeholder="Search..." data-filter-theme="c" data-theme="c" data-divider-theme="b" >
+				<li data-role="list-divider">Most Commonly Used Contracts</li>
+				<li><a href="#off35">OFF35: Art &amp; Instructional School Supplies</a></li>
+				<li><a href="#off36">OFF36: Office Supplies, Recycled Paper &amp; Envelopes</a></li>
+				<li><a href="#off38">OFF38: Office, School &amp; Library Furniture, Accessories &amp; Installation</a></li>
+				<li data-role="list-divider">Other Contracts</li>
+				<li><a href="#off27">OFF27: Document Solutions, Microfiche, Microfilm &amp; Imaging Equipment, Software, Supplies &amp; Services</a></li>
+				<li><a href="#off30">OFF30: Audio, Video, Studio Production, Presentation Equipment &amp; Supplies</a></li>
+				<li><a href="#off30a">OFF30A: Audio, Video, Studio Production, Presentation Equipment &amp; Supplies</a></li>
+				<li><a href="#off32">OFF32: Photocopier/Fax Equipment &amp; Services</a></li>
+				<li><a href="#off43">OFF43: Small Package Delivery</a></li>
+				<li><a href="#off44">OFF44: Print/Copy/Mail Services &amp; Printed Promotional Products</a></li>
+			</ul>
+ 		</div><!-- /content -->
+</div><!-- /#office -->
+
+<!-- Start of first page: #roads -->
+<div data-role="page" id="roads">
+	<div data-role="header" data-position="fixed" data-theme="b">
+		<a href="#home" data-rel="back" data-iconpos="notext" data-icon="arrow-l" data-direction="reverse"></a>
+		<h1>Vehicles, Transportation &amp; Road Maintenance</h1>
+		<a href="#about_roads" data-iconpos="notext" data-theme="c" data-icon="info" data-transition="slideup"></a>
+	</div>
+	<div id="roads_body" data-role="content" style="text-align:left;">	
+			<ul data-role="listview" data-filter="true" data-filter-placeholder="Search..." data-filter-theme="c" data-theme="c" data-divider-theme="b" >
+				<li data-role="list-divider">Most Commonly Used Contracts</li>
+				<li><a href="#ovm08">OVM08: Windshield &amp; Glass Replacement for Vehicles</a></li>
+				<li><a href="#ovm09">OVM09: Short-Term Rental of Various Light Duty Vehicles</a></li>
+				<li><a href="#veh92">VEH92: Traffic Safety Products</a></li>
+				<li><a href="#veh97">VEH97: Tires, Tubes &amp; Services</a></li>
+				<li data-role="list-divider">Other Contracts</li>
+				<li><a href="#ovm10">OVM10: Purchase of Vehicles - Gasoline, Hybrid &amp; Other Alternative Fuel Vehicles</a></li>
+				<li><a href="#veh84">VEH84: Fuel Card &amp; Fuel Management Services</a></li>
+				<li><a href="#veh84a">VEH84A: Vehicle Maintenance Management Services &amp; Accident Subrogation Services</a></li>
+				<li><a href="#veh93">VEH93: Heavy Duty Vehicle</a></li>
+				<li><a href="#veh95">VEH95: Sodium Chloride &#40;Road Salt&#41;</a></li>
+				<li><a href="#veh96">VEH96: Light, Medium, Heavy Duty OEM &amp; NON-OEM Motorized Vehicle Parts, Refined Motor Oil, Lubricants</a></li>
+			</ul>
+ 		</div><!-- /content -->
+</div><!-- /#roads -->
+
+
+<!-- CLOTHING START -->
+<!-- Start of first page: #clt07 -->
+<div data-role="page" id="clt07">
+	<div data-role="header" data-position="fixed" data-theme="b">
+		<a href="#home" data-rel="back" data-iconpos="notext" data-icon="arrow-l" data-direction="reverse"></a>
+		<h1>CLT07: Clothing, Uniforms, Footwear &amp;Accessories</h1>
+		<a href="#about_clt07" data-iconpos="notext" data-theme="c" data-icon="info" data-transition="slideup"></a>
+	</div>
+	<div id="clt07_body" data-role="content" style="text-align:left;">	
+			<ul data-role="listview" data-theme="c" data-divider-theme="b" >
+				<li><a href="#order">Ordering Instructions</a></li>
+				<li><a href="#vend">Vendor List</a></li>
+				<li><a href="http://www.mass.gov/anf/docs/osd/uguide/clt07.pdf" target="_blank">State Contract User Guide</a></li>				
+			</ul>
+ 		</div><!-- /content -->
+</div><!-- /#clt07 -->
+<!-- CLOTHING END -->
+
+<!-- ENERGY START -->
+<!-- Start of first page: #ene33 -->
+<div data-role="page" id="ene33">
+	<div data-role="header" data-position="fixed" data-theme="b">
+		<a href="#home" data-rel="back" data-iconpos="notext" data-icon="arrow-l" data-direction="reverse"></a>
+		<h1>ENE33: Bio-Diesel</h1>
+		<a href="#about_ene33" data-iconpos="notext" data-theme="c" data-icon="info" data-transition="slideup"></a>
+	</div>
+	<div id="ene33_body" data-role="content" style="text-align:left;">	
+			<ul data-role="listview" data-theme="c" data-divider-theme="b" >
+				<li><a href="#order">Ordering Instructions</a></li>
+				<li><a href="#vend">Vendor List</a></li>
+				<li><a href="http://www.mass.gov/anf/docs/osd/uguide/ene33.pdf" target="_blank">State Contract User Guide</a></li>				
+			</ul>
+ 		</div><!-- /content -->
+</div><!-- /#ene33 -->
+
+<!-- Start of first page: #ene40 -->
+<div data-role="page" id="ene40">
+	<div data-role="header" data-position="fixed" data-theme="b">
+		<a href="#home" data-rel="back" data-iconpos="notext" data-icon="arrow-l" data-direction="reverse"></a>
+		<h1>ENE40: Ultra Low Sulfur Diesel</h1>
+		<a href="#about_ene40" data-iconpos="notext" data-theme="c" data-icon="info" data-transition="slideup"></a>
+	</div>
+	<div id="ene40_body" data-role="content" style="text-align:left;">	
+			<ul data-role="listview" data-theme="c" data-divider-theme="b" >
+				<li><a href="#order">Ordering Instructions</a></li>
+				<li><a href="#vend">Vendor List</a></li>
+				<li><a href="http://www.mass.gov/anf/docs/osd/uguide/ene40.pdf" target="_blank">State Contract User Guide</a></li>				
+			</ul>
+ 		</div><!-- /content -->
+</div><!-- /#ene40 -->
+
+<!-- Start of first page: #ene41 -->
+<div data-role="page" id="ene41">
+	<div data-role="header" data-position="fixed" data-theme="b">
+		<a href="#home" data-rel="back" data-iconpos="notext" data-icon="arrow-l" data-direction="reverse"></a>
+		<h1>ENE41: Gasoline</h1>
+		<a href="#about_ene41" data-iconpos="notext" data-theme="c" data-icon="info" data-transition="slideup"></a>
+	</div>
+	<div id="ene41_body" data-role="content" style="text-align:left;">	
+			<ul data-role="listview" data-theme="c" data-divider-theme="b" >
+				<li><a href="#order">Ordering Instructions</a></li>
+				<li><a href="#vend">Vendor List</a></li>
+				<li><a href="http://www.mass.gov/anf/docs/osd/uguide/ene41.pdf" target="_blank">State Contract User Guide</a></li>				
+			</ul>
+ 		</div><!-- /content -->
+</div><!-- /#ene41 -->
+
+<!-- Start of first page: #ene34 -->
+<div data-role="page" id="ene34">
+	<div data-role="header" data-position="fixed" data-theme="b">
+		<a href="#home" data-rel="back" data-iconpos="notext" data-icon="arrow-l" data-direction="reverse"></a>
+		<h1>ENE34: Heating Oil</h1>
+		<a href="#about_ene34" data-iconpos="notext" data-theme="c" data-icon="info" data-transition="slideup"></a>
+	</div>
+	<div id="ene34_body" data-role="content" style="text-align:left;">	
+			<ul data-role="listview" data-theme="c" data-divider-theme="b" >
+				<li><a href="#order">Ordering Instructions</a></li>
+				<li><a href="#vend">Vendor List</a></li>
+				<li><a href="http://www.mass.gov/anf/docs/osd/uguide/ene34.pdf" target="_blank">State Contract User Guide</a></li>				
+			</ul>
+ 		</div><!-- /content -->
+</div><!-- /#ene34 -->
+
+<!-- Start of first page: #ene35 -->
+<div data-role="page" id="ene35">
+	<div data-role="header" data-position="fixed" data-theme="b">
+		<a href="#home" data-rel="back" data-iconpos="notext" data-icon="arrow-l" data-direction="reverse"></a>
+		<h1>ENE35: Propane</h1>
+		<a href="#about_ene35" data-iconpos="notext" data-theme="c" data-icon="info" data-transition="slideup"></a>
+	</div>
+	<div id="ene35_body" data-role="content" style="text-align:left;">	
+			<ul data-role="listview" data-theme="c" data-divider-theme="b" >
+				<li><a href="#order">Ordering Instructions</a></li>
+				<li><a href="#vend">Vendor List</a></li>
+				<li><a href="http://www.mass.gov/anf/docs/osd/uguide/ene35.pdf" target="_blank">State Contract User Guide</a></li>				
+			</ul>
+ 		</div><!-- /content -->
+</div><!-- /#ene35 -->
+
+<!-- Start of first page: #ene37 -->
+<div data-role="page" id="ene37">
+	<div data-role="header" data-position="fixed" data-theme="b">
+		<a href="#home" data-rel="back" data-iconpos="notext" data-icon="arrow-l" data-direction="reverse"></a>
+		<h1>ENE37: Electricity</h1>
+		<a href="#about_ene37" data-iconpos="notext" data-theme="c" data-icon="info" data-transition="slideup"></a>
+	</div>
+	<div id="ene37_body" data-role="content" style="text-align:left;">	
+			<ul data-role="listview" data-theme="c" data-divider-theme="b" >
+				<li><a href="#order">Ordering Instructions</a></li>
+				<li><a href="#vend">Vendor List</a></li>
+				<li><a href="http://www.mass.gov/anf/docs/osd/uguide/ene37.pdf" target="_blank">State Contract User Guide</a></li>				
+			</ul>
+ 		</div><!-- /content -->
+</div><!-- /#ene37 -->
+
+<!-- Start of first page: #ene38 -->
+<div data-role="page" id="ene38">
+	<div data-role="header" data-position="fixed" data-theme="b">
+		<a href="#home" data-rel="back" data-iconpos="notext" data-icon="arrow-l" data-direction="reverse"></a>
+		<h1>ENE38: Natural Gas</h1>
+		<a href="#about_ene38" data-iconpos="notext" data-theme="c" data-icon="info" data-transition="slideup"></a>
+	</div>
+	<div id="ene38_body" data-role="content" style="text-align:left;">	
+			<ul data-role="listview" data-theme="c" data-divider-theme="b" >
+				<li><a href="#order">Ordering Instructions</a></li>
+				<li><a href="#vend">Vendor List</a></li>
+				<li><a href="http://www.mass.gov/anf/docs/osd/uguide/ene38.pdf" target="_blank">State Contract User Guide</a></li>				
+			</ul>
+ 		</div><!-- /content -->
+</div><!-- /#ene38 -->
+<!-- ENERGY END -->
+
+<!-- FACILITIES START -->
+<!-- Start of first page: #fac76 -->
+<div data-role="page" id="fac76">
+	<div data-role="header" data-position="fixed" data-theme="b">
+		<a href="#home" data-rel="back" data-iconpos="notext" data-icon="arrow-l" data-direction="reverse"></a>
+		<h1>FAC76: Maintenance, Repair &amp;Operations Products</h1>
+		<a href="#about_fac76" data-iconpos="notext" data-theme="c" data-icon="info" data-transition="slideup"></a>
+	</div>
+	<div id="fac76_body" data-role="content" style="text-align:left;">	
+			<ul data-role="listview" data-theme="c" data-divider-theme="b" >
+				<li><a href="#order">Ordering Instructions</a></li>
+				<li><a href="#vend">Vendor List</a></li>
+				<li><a href="http://www.mass.gov/anf/docs/osd/uguide/fac76.pdf" target="_blank">State Contract User Guide</a></li>				
+			</ul>
+ 		</div><!-- /content -->
+</div><!-- /#fac76 -->
+
+<!-- Start of first page: #fac82 -->
+<div data-role="page" id="fac82">
+	<div data-role="header" data-position="fixed" data-theme="b">
+		<a href="#home" data-rel="back" data-iconpos="notext" data-icon="arrow-l" data-direction="reverse"></a>
+		<h1>FAC82: Hazardous/Universal, Medical &amp;Electronic Waste Disposal</h1>
+		<a href="#about_fac82" data-iconpos="notext" data-theme="c" data-icon="info" data-transition="slideup"></a>
+	</div>
+	<div id="fac82_body" data-role="content" style="text-align:left;">	
+			<ul data-role="listview" data-theme="c" data-divider-theme="b" >
+				<li><a href="#order">Ordering Instructions</a></li>
+				<li><a href="#vend">Vendor List</a></li>
+				<li><a href="http://www.mass.gov/anf/docs/osd/uguide/fac82.pdf" target="_blank">State Contract User Guide</a></li>				
+			</ul>
+ 		</div><!-- /content -->
+</div><!-- /#fac82 -->
+
+<!-- Start of first page: #fac85 -->
+<div data-role="page" id="fac85">
+	<div data-role="header" data-position="fixed" data-theme="b">
+		<a href="#home" data-rel="back" data-iconpos="notext" data-icon="arrow-l" data-direction="reverse"></a>
+		<h1>FAC85: Environmentally Preferable Cleaning Products</h1>
+		<a href="#about_fac85" data-iconpos="notext" data-theme="c" data-icon="info" data-transition="slideup"></a>
+	</div>
+	<div id="fac85_body" data-role="content" style="text-align:left;">	
+			<ul data-role="listview" data-theme="c" data-divider-theme="b" >
+				<li><a href="#order">Ordering Instructions</a></li>
+				<li><a href="#vend">Vendor List</a></li>
+				<li><a href="http://www.mass.gov/anf/docs/osd/uguide/fac85.pdf" target="_blank">State Contract User Guide</a></li>				
+			</ul>
+ 		</div><!-- /content -->
+</div><!-- /#fac85 -->
+
+<!-- Start of first page: #fac87 -->
+<div data-role="page" id="fac87">
+	<div data-role="header" data-position="fixed" data-theme="b">
+		<a href="#home" data-rel="back" data-iconpos="notext" data-icon="arrow-l" data-direction="reverse"></a>
+		<h1>FAC87: Recycling Containers, Compost Bins &amp;Rain Barrels</h1>
+		<a href="#about_fac87" data-iconpos="notext" data-theme="c" data-icon="info" data-transition="slideup"></a>
+	</div>
+	<div id="fac87_body" data-role="content" style="text-align:left;">	
+			<ul data-role="listview" data-theme="c" data-divider-theme="b" >
+				<li><a href="#order">Ordering Instructions</a></li>
+				<li><a href="#vend">Vendor List</a></li>
+				<li><a href="http://www.mass.gov/anf/docs/osd/uguide/fac87.pdf" target="_blank">State Contract User Guide</a></li>				
+			</ul>
+ 		</div><!-- /content -->
+</div><!-- /#fac87 -->
+
+<!-- Start of first page: #fac88 -->
+<div data-role="page" id="fac88">
+	<div data-role="header" data-position="fixed" data-theme="b">
+		<a href="#home" data-rel="back" data-iconpos="notext" data-icon="arrow-l" data-direction="reverse"></a>
+		<h1>FAC88: Lawns and Grounds Equipment, Parts &amp;Services</h1>
+		<a href="#about_fac88" data-iconpos="notext" data-theme="c" data-icon="info" data-transition="slideup"></a>
+	</div>
+	<div id="fac88_body" data-role="content" style="text-align:left;">	
+			<ul data-role="listview" data-theme="c" data-divider-theme="b" >
+				<li><a href="#order">Ordering Instructions</a></li>
+				<li><a href="#vend">Vendor List</a></li>
+				<li><a href="http://www.mass.gov/anf/docs/osd/uguide/fac88.pdf" target="_blank">State Contract User Guide</a></li>				
+			</ul>
+ 		</div><!-- /content -->
+</div><!-- /#fac88 -->
+
+<!-- Start of first page: #fac63 -->
+<div data-role="page" id="fac63">
+	<div data-role="header" data-position="fixed" data-theme="b">
+		<a href="#home" data-rel="back" data-iconpos="notext" data-icon="arrow-l" data-direction="reverse"></a>
+		<h1>FAC63: Carpeting/Flooring Products &amp;Installation</h1>
+		<a href="#about_fac63" data-iconpos="notext" data-theme="c" data-icon="info" data-transition="slideup"></a>
+	</div>
+	<div id="fac63_body" data-role="content" style="text-align:left;">	
+			<ul data-role="listview" data-theme="c" data-divider-theme="b" >
+				<li><a href="#order">Ordering Instructions</a></li>
+				<li><a href="#vend">Vendor List</a></li>
+				<li><a href="http://www.mass.gov/anf/docs/osd/uguide/fac63.pdf" target="_blank">State Contract User Guide</a></li>				
+			</ul>
+ 		</div><!-- /content -->
+</div><!-- /#fac63 -->
+
+<!-- Start of first page: #fac64 -->
+<div data-role="page" id="fac64">
+	<div data-role="header" data-position="fixed" data-theme="b">
+		<a href="#home" data-rel="back" data-iconpos="notext" data-icon="arrow-l" data-direction="reverse"></a>
+		<h1>FAC64: Security, Surveillance, Monitoring &amp;Access Control System</h1>
+		<a href="#about_fac64" data-iconpos="notext" data-theme="c" data-icon="info" data-transition="slideup"></a>
+	</div>
+	<div id="fac64_body" data-role="content" style="text-align:left;">	
+			<ul data-role="listview" data-theme="c" data-divider-theme="b" >
+				<li><a href="#order">Ordering Instructions</a></li>
+				<li><a href="#vend">Vendor List</a></li>
+				<li><a href="http://www.mass.gov/anf/docs/osd/uguide/fac64.pdf" target="_blank">State Contract User Guide</a></li>				
+			</ul>
+ 		</div><!-- /content -->
+</div><!-- /#fac64 -->
+
+<!-- Start of first page: #fac68 -->
+<div data-role="page" id="fac68">
+	<div data-role="header" data-position="fixed" data-theme="b">
+		<a href="#home" data-rel="back" data-iconpos="notext" data-icon="arrow-l" data-direction="reverse"></a>
+		<h1>FAC68: Demand Response Services</h1>
+		<a href="#about_fac68" data-iconpos="notext" data-theme="c" data-icon="info" data-transition="slideup"></a>
+	</div>
+	<div id="fac68_body" data-role="content" style="text-align:left;">	
+			<ul data-role="listview" data-theme="c" data-divider-theme="b" >
+				<li><a href="#order">Ordering Instructions</a></li>
+				<li><a href="#vend">Vendor List</a></li>
+				<li><a href="http://www.mass.gov/anf/docs/osd/uguide/fac68.pdf" target="_blank">State Contract User Guide</a></li>				
+			</ul>
+ 		</div><!-- /content -->
+</div><!-- /#fac68 -->
+
+<!-- Start of first page: #fac70 -->
+<div data-role="page" id="fac70">
+	<div data-role="header" data-position="fixed" data-theme="b">
+		<a href="#home" data-rel="back" data-iconpos="notext" data-icon="arrow-l" data-direction="reverse"></a>
+		<h1>FAC70: Tradespersons</h1>
+		<a href="#about_fac70" data-iconpos="notext" data-theme="c" data-icon="info" data-transition="slideup"></a>
+	</div>
+	<div id="fac70_body" data-role="content" style="text-align:left;">	
+			<ul data-role="listview" data-theme="c" data-divider-theme="b" >
+				<li><a href="#order">Ordering Instructions</a></li>
+				<li><a href="#vend">Vendor List</a></li>
+				<li><a href="http://www.mass.gov/anf/docs/osd/uguide/fac70.pdf" target="_blank">State Contract User Guide</a></li>				
+			</ul>
+ 		</div><!-- /content -->
+</div><!-- /#fac70 -->
+
+<!-- Start of first page: #fac72 -->
+<div data-role="page" id="fac72">
+	<div data-role="header" data-position="fixed" data-theme="b">
+		<a href="#home" data-rel="back" data-iconpos="notext" data-icon="arrow-l" data-direction="reverse"></a>
+		<h1>FAC72: Security Services &amp;Fence Rental</h1>
+		<a href="#about_fac72" data-iconpos="notext" data-theme="c" data-icon="info" data-transition="slideup"></a>
+	</div>
+	<div id="fac72_body" data-role="content" style="text-align:left;">	
+			<ul data-role="listview" data-theme="c" data-divider-theme="b" >
+				<li><a href="#order">Ordering Instructions</a></li>
+				<li><a href="#vend">Vendor List</a></li>
+				<li><a href="http://www.mass.gov/anf/docs/osd/uguide/fac72.pdf" target="_blank">State Contract User Guide</a></li>				
+			</ul>
+ 		</div><!-- /content -->
+</div><!-- /#fac72 -->
+
+<!-- Start of first page: #fac74 -->
+<div data-role="page" id="fac74">
+	<div data-role="header" data-position="fixed" data-theme="b">
+		<a href="#home" data-rel="back" data-iconpos="notext" data-icon="arrow-l" data-direction="reverse"></a>
+		<h1>FAC74: Pest Control Services</h1>
+		<a href="#about_fac74" data-iconpos="notext" data-theme="c" data-icon="info" data-transition="slideup"></a>
+	</div>
+	<div id="fac74_body" data-role="content" style="text-align:left;">	
+			<ul data-role="listview" data-theme="c" data-divider-theme="b" >
+				<li><a href="#order">Ordering Instructions</a></li>
+				<li><a href="#vend">Vendor List</a></li>
+				<li><a href="http://www.mass.gov/anf/docs/osd/uguide/fac74.pdf" target="_blank">State Contract User Guide</a></li>				
+			</ul>
+ 		</div><!-- /content -->
+</div><!-- /#fac74 -->
+
+<!-- Start of first page: #fac77 -->
+<div data-role="page" id="fac77">
+	<div data-role="header" data-position="fixed" data-theme="b">
+		<a href="#home" data-rel="back" data-iconpos="notext" data-icon="arrow-l" data-direction="reverse"></a>
+		<h1>FAC77: Landscaping Services, Tree Trimming, Catch Basin Cleaning, Snow Removal &amp;Related Services</h1>
+		<a href="#about_fac77" data-iconpos="notext" data-theme="c" data-icon="info" data-transition="slideup"></a>
+	</div>
+	<div id="fac77_body" data-role="content" style="text-align:left;">	
+			<ul data-role="listview" data-theme="c" data-divider-theme="b" >
+				<li><a href="#order">Ordering Instructions</a></li>
+				<li><a href="#vend">Vendor List</a></li>
+				<li><a href="http://www.mass.gov/anf/docs/osd/uguide/fac77.pdf" target="_blank">State Contract User Guide</a></li>				
+			</ul>
+ 		</div><!-- /content -->
+</div><!-- /#fac77 -->
+
+<!-- Start of first page: #fac78 -->
+<div data-role="page" id="fac78">
+	<div data-role="header" data-position="fixed" data-theme="b">
+		<a href="#home" data-rel="back" data-iconpos="notext" data-icon="arrow-l" data-direction="reverse"></a>
+		<h1>FAC78: Moving Services &amp;State Surplus Disposal</h1>
+		<a href="#about_fac78" data-iconpos="notext" data-theme="c" data-icon="info" data-transition="slideup"></a>
+	</div>
+	<div id="fac78_body" data-role="content" style="text-align:left;">	
+			<ul data-role="listview" data-theme="c" data-divider-theme="b" >
+				<li><a href="#order">Ordering Instructions</a></li>
+				<li><a href="#vend">Vendor List</a></li>
+				<li><a href="http://www.mass.gov/anf/docs/osd/uguide/fac78.pdf" target="_blank">State Contract User Guide</a></li>				
+			</ul>
+ 		</div><!-- /content -->
+</div><!-- /#fac78 -->
+
+<!-- Start of first page: #fac79 -->
+<div data-role="page" id="fac79">
+	<div data-role="header" data-position="fixed" data-theme="b">
+		<a href="#home" data-rel="back" data-iconpos="notext" data-icon="arrow-l" data-direction="reverse"></a>
+		<h1>FAC79: Landscaping/Green Roof Products, Playground Equipment, Site Amenities &amp;Related Products</h1>
+		<a href="#about_fac79" data-iconpos="notext" data-theme="c" data-icon="info" data-transition="slideup"></a>
+	</div>
+	<div id="fac79_body" data-role="content" style="text-align:left;">	
+			<ul data-role="listview" data-theme="c" data-divider-theme="b" >
+				<li><a href="#order">Ordering Instructions</a></li>
+				<li><a href="#vend">Vendor List</a></li>
+				<li><a href="http://www.mass.gov/anf/docs/osd/uguide/fac79.pdf" target="_blank">State Contract User Guide</a></li>				
+			</ul>
+ 		</div><!-- /content -->
+</div><!-- /#fac79 -->
+
+<!-- Start of first page: #fac80 -->
+<div data-role="page" id="fac80">
+	<div data-role="header" data-position="fixed" data-theme="b">
+		<a href="#home" data-rel="back" data-iconpos="notext" data-icon="arrow-l" data-direction="reverse"></a>
+		<h1>FAC80: Water Treatment Chemicals &amp;Systems</h1>
+		<a href="#about_fac80" data-iconpos="notext" data-theme="c" data-icon="info" data-transition="slideup"></a>
+	</div>
+	<div id="fac80_body" data-role="content" style="text-align:left;">	
+			<ul data-role="listview" data-theme="c" data-divider-theme="b" >
+				<li><a href="#order">Ordering Instructions</a></li>
+				<li><a href="#vend">Vendor List</a></li>
+				<li><a href="http://www.mass.gov/anf/docs/osd/uguide/fac80.pdf" target="_blank">State Contract User Guide</a></li>				
+			</ul>
+ 		</div><!-- /content -->
+</div><!-- /#fac80 -->
+
+<!-- Start of first page: #fac81 -->
+<div data-role="page" id="fac81">
+	<div data-role="header" data-position="fixed" data-theme="b">
+		<a href="#home" data-rel="back" data-iconpos="notext" data-icon="arrow-l" data-direction="reverse"></a>
+		<h1>FAC81: Janitorial Services (Environmentally Preferable)</h1>
+		<a href="#about_fac81" data-iconpos="notext" data-theme="c" data-icon="info" data-transition="slideup"></a>
+	</div>
+	<div id="fac81_body" data-role="content" style="text-align:left;">	
+			<ul data-role="listview" data-theme="c" data-divider-theme="b" >
+				<li><a href="#order">Ordering Instructions</a></li>
+				<li><a href="#vend">Vendor List</a></li>
+				<li><a href="http://www.mass.gov/anf/docs/osd/uguide/fac81.pdf" target="_blank">State Contract User Guide</a></li>				
+			</ul>
+ 		</div><!-- /content -->
+</div><!-- /#fac81 -->
+
+<!-- Start of first page: #fac83 -->
+<div data-role="page" id="fac83">
+	<div data-role="header" data-position="fixed" data-theme="b">
+		<a href="#home" data-rel="back" data-iconpos="notext" data-icon="arrow-l" data-direction="reverse"></a>
+		<h1>FAC83: Renewable/Alternative Energy Credit</h1>
+		<a href="#about_fac83" data-iconpos="notext" data-theme="c" data-icon="info" data-transition="slideup"></a>
+	</div>
+	<div id="fac83_body" data-role="content" style="text-align:left;">	
+			<ul data-role="listview" data-theme="c" data-divider-theme="b" >
+				<li><a href="#order">Ordering Instructions</a></li>
+				<li><a href="#vend">Vendor List</a></li>
+				<li><a href="http://www.mass.gov/anf/docs/osd/uguide/fac83.pdf" target="_blank">State Contract User Guide</a></li>				
+			</ul>
+ 		</div><!-- /content -->
+</div><!-- /#fac83 -->
+
+<!-- Start of first page: #fac86 -->
+<div data-role="page" id="fac86">
+	<div data-role="header" data-position="fixed" data-theme="b">
+		<a href="#home" data-rel="back" data-iconpos="notext" data-icon="arrow-l" data-direction="reverse"></a>
+		<h1>FAC86: Solid Waste &amp;Recycling Services</h1>
+		<a href="#about_fac86" data-iconpos="notext" data-theme="c" data-icon="info" data-transition="slideup"></a>
+	</div>
+	<div id="fac86_body" data-role="content" style="text-align:left;">	
+			<ul data-role="listview" data-theme="c" data-divider-theme="b" >
+				<li><a href="#order">Ordering Instructions</a></li>
+				<li><a href="#vend">Vendor List</a></li>
+				<li><a href="http://www.mass.gov/anf/docs/osd/uguide/fac86.pdf" target="_blank">State Contract User Guide</a></li>				
+			</ul>
+ 		</div><!-- /content -->
+</div><!-- /#fac86 -->
+<!-- FACILITIES END -->
+
+<!-- FIRE START -->
+<!-- Start of first page: #fir04 -->
+<div data-role="page" id="fir04">
+	<div data-role="header" data-position="fixed" data-theme="b">
+		<a href="#home" data-rel="back" data-iconpos="notext" data-icon="arrow-l" data-direction="reverse"></a>
+		<h1>FIR04: Public Safety Equipment, Supplies, Services &amp;Repairs</h1>
+		<a href="#about_fir04" data-iconpos="notext" data-theme="c" data-icon="info" data-transition="slideup"></a>
+	</div>
+	<div id="fir04_body" data-role="content" style="text-align:left;">	
+			<ul data-role="listview" data-theme="c" data-divider-theme="b" >
+				<li><a href="#order">Ordering Instructions</a></li>
+				<li><a href="#vend">Vendor List</a></li>
+				<li><a href="http://www.mass.gov/anf/docs/osd/uguide/fir04.pdf" target="_blank">State Contract User Guide</a></li>				
+			</ul>
+ 		</div><!-- /content -->
+</div><!-- /#fir04 -->
+<!-- FIRE END -->
+
+<!-- FOOD START -->
+<!-- Start of first page: #gro34 -->
+<div data-role="page" id="gro34">
+	<div data-role="header" data-position="fixed" data-theme="b">
+		<a href="#home" data-rel="back" data-iconpos="notext" data-icon="arrow-l" data-direction="reverse"></a>
+		<h1>GRO34: Bottled Water, Emergency Bottled Water, Water Filtration, Reverse Osmosis &amp;Coffee Services</h1>
+		<a href="#about_gro34" data-iconpos="notext" data-theme="c" data-icon="info" data-transition="slideup"></a>
+	</div>
+	<div id="gro34_body" data-role="content" style="text-align:left;">	
+			<ul data-role="listview" data-theme="c" data-divider-theme="b" >
+				<li><a href="#order">Ordering Instructions</a></li>
+				<li><a href="#vend">Vendor List</a></li>
+				<li><a href="http://www.mass.gov/anf/docs/osd/uguide/gro34.pdf" target="_blank">State Contract User Guide</a></li>				
+			</ul>
+ 		</div><!-- /content -->
+</div><!-- /#gro34 -->
+
+<!-- Start of first page: #gro27 -->
+<div data-role="page" id="gro27">
+	<div data-role="header" data-position="fixed" data-theme="b">
+		<a href="#home" data-rel="back" data-iconpos="notext" data-icon="arrow-l" data-direction="reverse"></a>
+		<h1>GRO27: Catering Services, Conference </h1>
+		<a href="#about_gro27" data-iconpos="notext" data-theme="c" data-icon="info" data-transition="slideup"></a>
+	</div>
+	<div id="gro27_body" data-role="content" style="text-align:left;">	
+			<ul data-role="listview" data-theme="c" data-divider-theme="b" >
+				<li><a href="#order">Ordering Instructions</a></li>
+				<li><a href="#vend">Vendor List</a></li>
+				<li><a href="http://www.mass.gov/anf/docs/osd/uguide/gro27.pdf" target="_blank">State Contract User Guide</a></li>				
+			</ul>
+ 		</div><!-- /content -->
+</div><!-- /#gro27 -->
+
+<!-- Start of first page: #gro29 -->
+<div data-role="page" id="gro29">
+	<div data-role="header" data-position="fixed" data-theme="b">
+		<a href="#home" data-rel="back" data-iconpos="notext" data-icon="arrow-l" data-direction="reverse"></a>
+		<h1>GRO29: Foodservice Supplies &amp;Equipment</h1>
+		<a href="#about_gro29" data-iconpos="notext" data-theme="c" data-icon="info" data-transition="slideup"></a>
+	</div>
+	<div id="gro29_body" data-role="content" style="text-align:left;">	
+			<ul data-role="listview" data-theme="c" data-divider-theme="b" >
+				<li><a href="#order">Ordering Instructions</a></li>
+				<li><a href="#vend">Vendor List</a></li>
+				<li><a href="http://www.mass.gov/anf/docs/osd/uguide/gro29.pdf" target="_blank">State Contract User Guide</a></li>				
+			</ul>
+ 		</div><!-- /content -->
+</div><!-- /#gro29 -->
+
+<!-- Start of first page: #gro30 -->
+<div data-role="page" id="gro30">
+	<div data-role="header" data-position="fixed" data-theme="b">
+		<a href="#home" data-rel="back" data-iconpos="notext" data-icon="arrow-l" data-direction="reverse"></a>
+		<h1>GRO30: Prime Grocers</h1>
+		<a href="#about_gro30" data-iconpos="notext" data-theme="c" data-icon="info" data-transition="slideup"></a>
+	</div>
+	<div id="gro30_body" data-role="content" style="text-align:left;">	
+			<ul data-role="listview" data-theme="c" data-divider-theme="b" >
+				<li><a href="#order">Ordering Instructions</a></li>
+				<li><a href="#vend">Vendor List</a></li>
+				<li><a href="http://www.mass.gov/anf/docs/osd/uguide/gro30.pdf" target="_blank">State Contract User Guide</a></li>				
+			</ul>
+ 		</div><!-- /content -->
+</div><!-- /#gro30 -->
+
+<!-- Start of first page: #gro32 -->
+<div data-role="page" id="gro32">
+	<div data-role="header" data-position="fixed" data-theme="b">
+		<a href="#home" data-rel="back" data-iconpos="notext" data-icon="arrow-l" data-direction="reverse"></a>
+		<h1>GRO32: Dairy Products</h1>
+		<a href="#about_gro32" data-iconpos="notext" data-theme="c" data-icon="info" data-transition="slideup"></a>
+	</div>
+	<div id="gro32_body" data-role="content" style="text-align:left;">	
+			<ul data-role="listview" data-theme="c" data-divider-theme="b" >
+				<li><a href="#order">Ordering Instructions</a></li>
+				<li><a href="#vend">Vendor List</a></li>
+				<li><a href="http://www.mass.gov/anf/docs/osd/uguide/gro32.pdf" target="_blank">State Contract User Guide</a></li>				
+			</ul>
+ 		</div><!-- /content -->
+</div><!-- /#gro32 -->
+
+<!-- Start of first page: #gro33 -->
+<div data-role="page" id="gro33">
+	<div data-role="header" data-position="fixed" data-theme="b">
+		<a href="#home" data-rel="back" data-iconpos="notext" data-icon="arrow-l" data-direction="reverse"></a>
+		<h1>GRO33: Baked Goods</h1>
+		<a href="#about_gro33" data-iconpos="notext" data-theme="c" data-icon="info" data-transition="slideup"></a>
+	</div>
+	<div id="gro33_body" data-role="content" style="text-align:left;">	
+			<ul data-role="listview" data-theme="c" data-divider-theme="b" >
+				<li><a href="#order">Ordering Instructions</a></li>
+				<li><a href="#vend">Vendor List</a></li>
+				<li><a href="http://www.mass.gov/anf/docs/osd/uguide/gro33.pdf" target="_blank">State Contract User Guide</a></li>				
+			</ul>
+ 		</div><!-- /content -->
+</div><!-- /#gro33 -->
+<!-- FOOD END -->
+
+<!-- IT START -->
+<!-- Start of first page: #itc47 -->
+<div data-role="page" id="itc47">
+	<div data-role="header" data-position="fixed" data-theme="b">
+		<a href="#home" data-rel="back" data-iconpos="notext" data-icon="arrow-l" data-direction="reverse"></a>
+		<h1>ITC47: IT Hardware &amp; Services</h1>
+		<a href="#about_itc47" data-iconpos="notext" data-theme="c" data-icon="info" data-transition="slideup"></a>
+	</div>
+	<div id="itc47_body" data-role="content" style="text-align:left;">	
+			<ul data-role="listview" data-theme="c" data-divider-theme="b" >
+				<li><a href="#order">Ordering Instructions</a></li>
+				<li><a href="#vend">Vendor List</a></li>
+				<li><a href="http://www.mass.gov/anf/docs/osd/uguide/itc47.pdf" target="_blank">State Contract User Guide</a></li>				
+			</ul>
+ 		</div><!-- /content -->
+</div><!-- /#itc47 -->
+
+<!-- Start of first page: #itc54 -->
+<div data-role="page" id="itc54">
+	<div data-role="header" data-position="fixed" data-theme="b">
+		<a href="#home" data-rel="back" data-iconpos="notext" data-icon="arrow-l" data-direction="reverse"></a>
+		<h1>ITC54: Data Cable Products &amp; Services</h1>
+		<a href="#about_itc54" data-iconpos="notext" data-theme="c" data-icon="info" data-transition="slideup"></a>
+	</div>
+	<div id="itc54_body" data-role="content" style="text-align:left;">	
+			<ul data-role="listview" data-theme="c" data-divider-theme="b" >
+				<li><a href="#order">Ordering Instructions</a></li>
+				<li><a href="#vend">Vendor List</a></li>
+				<li><a href="http://www.mass.gov/anf/docs/osd/uguide/itc54.pdf" target="_blank">State Contract User Guide</a></li>				
+			</ul>
+ 		</div><!-- /content -->
+</div><!-- /#itc54 -->
+
+<!-- Start of first page: #its58 -->
+<div data-role="page" id="its58">
+	<div data-role="header" data-position="fixed" data-theme="b">
+		<a href="#home" data-rel="back" data-iconpos="notext" data-icon="arrow-l" data-direction="reverse"></a>
+		<h1>ITS58: Software Reseller</h1>
+		<a href="#about_its58" data-iconpos="notext" data-theme="c" data-icon="info" data-transition="slideup"></a>
+	</div>
+	<div id="its58_body" data-role="content" style="text-align:left;">	
+			<ul data-role="listview" data-theme="c" data-divider-theme="b" >
+				<li><a href="#order">Ordering Instructions</a></li>
+				<li><a href="#vend">Vendor List</a></li>
+				<li><a href="http://www.mass.gov/anf/docs/osd/uguide/its58.pdf" target="_blank">State Contract User Guide</a></li>				
+			</ul>
+ 		</div><!-- /content -->
+</div><!-- /#its58 -->
+
+<!-- Start of first page: #itt40 -->
+<div data-role="page" id="itt40">
+	<div data-role="header" data-position="fixed" data-theme="b">
+		<a href="#home" data-rel="back" data-iconpos="notext" data-icon="arrow-l" data-direction="reverse"></a>
+		<h1>ITT40: Two-Way Radio Systems, Equipment &amp; Services</h1>
+		<a href="#about_itt40" data-iconpos="notext" data-theme="c" data-icon="info" data-transition="slideup"></a>
+	</div>
+	<div id="itt40_body" data-role="content" style="text-align:left;">	
+			<ul data-role="listview" data-theme="c" data-divider-theme="b" >
+				<li><a href="#order">Ordering Instructions</a></li>
+				<li><a href="#vend">Vendor List</a></li>
+				<li><a href="http://www.mass.gov/anf/docs/osd/uguide/itt40.pdf" target="_blank">State Contract User Guide</a></li>				
+			</ul>
+ 		</div><!-- /content -->
+</div><!-- /#itt40 -->
+
+<!-- Start of first page: #itc47 -->
+<div data-role="page" id="itc47">
+	<div data-role="header" data-position="fixed" data-theme="b">
+		<a href="#home" data-rel="back" data-iconpos="notext" data-icon="arrow-l" data-direction="reverse"></a>
+		<h1>ITC47: IT Hardware &amp; Services</h1>
+		<a href="#about_itc47" data-iconpos="notext" data-theme="c" data-icon="info" data-transition="slideup"></a>
+	</div>
+	<div id="itc47_body" data-role="content" style="text-align:left;">	
+			<ul data-role="listview" data-theme="c" data-divider-theme="b" >
+				<li><a href="#order">Ordering Instructions</a></li>
+				<li><a href="#vend">Vendor List</a></li>
+				<li><a href="http://www.mass.gov/anf/docs/osd/uguide/itc47.pdf" target="_blank">State Contract User Guide</a></li>				
+			</ul>
+ 		</div><!-- /content -->
+</div><!-- /#itc47 -->
+
+<!-- Start of first page: #itc49 -->
+<div data-role="page" id="itc49">
+	<div data-role="header" data-position="fixed" data-theme="b">
+		<a href="#home" data-rel="back" data-iconpos="notext" data-icon="arrow-l" data-direction="reverse"></a>
+		<h1>ITC49: IT Asset Lease Services</h1>
+		<a href="#about_itc49" data-iconpos="notext" data-theme="c" data-icon="info" data-transition="slideup"></a>
+	</div>
+	<div id="itc49_body" data-role="content" style="text-align:left;">	
+			<ul data-role="listview" data-theme="c" data-divider-theme="b" >
+				<li><a href="#order">Ordering Instructions</a></li>
+				<li><a href="#vend">Vendor List</a></li>
+				<li><a href="http://www.mass.gov/anf/docs/osd/uguide/itc49.pdf" target="_blank">State Contract User Guide</a></li>				
+			</ul>
+ 		</div><!-- /content -->
+</div><!-- /#itc49 -->
+
+<!-- Start of first page: #itc54 -->
+<div data-role="page" id="itc54">
+	<div data-role="header" data-position="fixed" data-theme="b">
+		<a href="#home" data-rel="back" data-iconpos="notext" data-icon="arrow-l" data-direction="reverse"></a>
+		<h1>ITC54: Data Cable Products &amp; Services</h1>
+		<a href="#about_itc54" data-iconpos="notext" data-theme="c" data-icon="info" data-transition="slideup"></a>
+	</div>
+	<div id="itc54_body" data-role="content" style="text-align:left;">	
+			<ul data-role="listview" data-theme="c" data-divider-theme="b" >
+				<li><a href="#order">Ordering Instructions</a></li>
+				<li><a href="#vend">Vendor List</a></li>
+				<li><a href="http://www.mass.gov/anf/docs/osd/uguide/itc54.pdf" target="_blank">State Contract User Guide</a></li>				
+			</ul>
+ 		</div><!-- /content -->
+</div><!-- /#itc54 -->
+
+<!-- Start of first page: #its19 -->
+<div data-role="page" id="its19">
+	<div data-role="header" data-position="fixed" data-theme="b">
+		<a href="#home" data-rel="back" data-iconpos="notext" data-icon="arrow-l" data-direction="reverse"></a>
+		<h1>ITS19: Oracle Software &amp; Services</h1>
+		<a href="#about_its19" data-iconpos="notext" data-theme="c" data-icon="info" data-transition="slideup"></a>
+	</div>
+	<div id="its19_body" data-role="content" style="text-align:left;">	
+			<ul data-role="listview" data-theme="c" data-divider-theme="b" >
+				<li><a href="#order">Ordering Instructions</a></li>
+				<li><a href="#vend">Vendor List</a></li>
+				<li><a href="http://www.mass.gov/anf/docs/osd/uguide/its19.pdf" target="_blank">State Contract User Guide</a></li>				
+			</ul>
+ 		</div><!-- /content -->
+</div><!-- /#its19 -->
+
+<!-- Start of first page: #its48 -->
+<div data-role="page" id="its48">
+	<div data-role="header" data-position="fixed" data-theme="b">
+		<a href="#home" data-rel="back" data-iconpos="notext" data-icon="arrow-l" data-direction="reverse"></a>
+		<h1>ITS48: ESRI GIS Software &amp; Services</h1>
+		<a href="#about_its48" data-iconpos="notext" data-theme="c" data-icon="info" data-transition="slideup"></a>
+	</div>
+	<div id="its48_body" data-role="content" style="text-align:left;">	
+			<ul data-role="listview" data-theme="c" data-divider-theme="b" >
+				<li><a href="#order">Ordering Instructions</a></li>
+				<li><a href="#vend">Vendor List</a></li>
+				<li><a href="http://www.mass.gov/anf/docs/osd/uguide/its48.pdf" target="_blank">State Contract User Guide</a></li>				
+			</ul>
+ 		</div><!-- /content -->
+</div><!-- /#its48 -->
+
+<!-- Start of first page: #its51 -->
+<div data-role="page" id="its51">
+	<div data-role="header" data-position="fixed" data-theme="b">
+		<a href="#home" data-rel="back" data-iconpos="notext" data-icon="arrow-l" data-direction="reverse"></a>
+		<h1>ITS51: ESRI GIS Software &amp; Services</h1>
+		<a href="#about_its51" data-iconpos="notext" data-theme="c" data-icon="info" data-transition="slideup"></a>
+	</div>
+	<div id="its51_body" data-role="content" style="text-align:left;">	
+			<ul data-role="listview" data-theme="c" data-divider-theme="b" >
+				<li><a href="#order">Ordering Instructions</a></li>
+				<li><a href="#vend">Vendor List</a></li>
+				<li><a href="http://www.mass.gov/anf/docs/osd/uguide/its51.pdf" target="_blank">State Contract User Guide</a></li>				
+			</ul>
+ 		</div><!-- /content -->
+</div><!-- /#its51 -->
+
+<!-- Start of first page: #its52 -->
+<div data-role="page" id="its52">
+	<div data-role="header" data-position="fixed" data-theme="b">
+		<a href="#home" data-rel="back" data-iconpos="notext" data-icon="arrow-l" data-direction="reverse"></a>
+		<h1>ITS52: IT Accessibility Services</h1>
+		<a href="#about_its52" data-iconpos="notext" data-theme="c" data-icon="info" data-transition="slideup"></a>
+	</div>
+	<div id="its52_body" data-role="content" style="text-align:left;">	
+			<ul data-role="listview" data-theme="c" data-divider-theme="b" >
+				<li><a href="#order">Ordering Instructions</a></li>
+				<li><a href="#vend">Vendor List</a></li>
+				<li><a href="http://www.mass.gov/anf/docs/osd/uguide/its52.pdf" target="_blank">State Contract User Guide</a></li>				
+			</ul>
+ 		</div><!-- /content -->
+</div><!-- /#its52 -->
+
+<!-- Start of first page: #its53a -->
+<div data-role="page" id="its53a">
+	<div data-role="header" data-position="fixed" data-theme="b">
+		<a href="#home" data-rel="back" data-iconpos="notext" data-icon="arrow-l" data-direction="reverse"></a>
+		<h1>ITS53: IT Staff Augmentation Full Service</h1>
+		<a href="#about_its53a" data-iconpos="notext" data-theme="c" data-icon="info" data-transition="slideup"></a>
+	</div>
+	<div id="its53a_body" data-role="content" style="text-align:left;">	
+			<ul data-role="listview" data-theme="c" data-divider-theme="b" >
+				<li><a href="#order">Ordering Instructions</a></li>
+				<li><a href="#vend">Vendor List</a></li>
+				<li><a href="http://www.mass.gov/anf/docs/osd/uguide/its53staffaugcat1.pdf" target="_blank">State Contract User Guide</a></li>				
+			</ul>
+ 		</div><!-- /content -->
+</div><!-- /#its53a -->
+
+<!-- Start of first page: #its53b -->
+<div data-role="page" id="its53b">
+	<div data-role="header" data-position="fixed" data-theme="b">
+		<a href="#home" data-rel="back" data-iconpos="notext" data-icon="arrow-l" data-direction="reverse"></a>
+		<h1>ITS53: IT Staff Augmentation Lower Overhead</h1>
+		<a href="#about_its53b" data-iconpos="notext" data-theme="c" data-icon="info" data-transition="slideup"></a>
+	</div>
+	<div id="its53b_body" data-role="content" style="text-align:left;">	
+			<ul data-role="listview" data-theme="c" data-divider-theme="b" >
+				<li><a href="#order">Ordering Instructions</a></li>
+				<li><a href="#vend">Vendor List</a></li>
+				<li><a href="http://www.mass.gov/anf/docs/osd/uguide/its53staffaugcat2.pdf" target="_blank">State Contract User Guide</a></li>				
+			</ul>
+ 		</div><!-- /content -->
+</div><!-- /#its53b -->
+
+<!-- Start of first page: #its53c -->
+<div data-role="page" id="its53c">
+	<div data-role="header" data-position="fixed" data-theme="b">
+		<a href="#home" data-rel="back" data-iconpos="notext" data-icon="arrow-l" data-direction="reverse"></a>
+		<h1>ITS53: IT Project Services - Geographical Information Systems</h1>
+		<a href="#about_its53c" data-iconpos="notext" data-theme="c" data-icon="info" data-transition="slideup"></a>
+	</div>
+	<div id="its53c_body" data-role="content" style="text-align:left;">	
+			<ul data-role="listview" data-theme="c" data-divider-theme="b" >
+				<li><a href="#order">Ordering Instructions</a></li>
+				<li><a href="#vend">Vendor List</a></li>
+				<li><a href="http://www.mass.gov/anf/docs/osd/uguide/its53projservgis.pdf" target="_blank">State Contract User Guide</a></li>				
+			</ul>
+ 		</div><!-- /content -->
+</div><!-- /#its53c -->
+
+<!-- Start of first page: #its53d -->
+<div data-role="page" id="its53d">
+	<div data-role="header" data-position="fixed" data-theme="b">
+		<a href="#home" data-rel="back" data-iconpos="notext" data-icon="arrow-l" data-direction="reverse"></a>
+		<h1>ITS53: IT Project Services - Solution Providers</h1>
+		<a href="#about_its53d" data-iconpos="notext" data-theme="c" data-icon="info" data-transition="slideup"></a>
+	</div>
+	<div id="its53d_body" data-role="content" style="text-align:left;">	
+			<ul data-role="listview" data-theme="c" data-divider-theme="b" >
+				<li><a href="#order">Ordering Instructions</a></li>
+				<li><a href="#vend">Vendor List</a></li>
+				<li><a href="http://www.mass.gov/anf/docs/osd/uguide/its53projservsp.pdf" target="_blank">State Contract User Guide</a></li>				
+			</ul>
+ 		</div><!-- /content -->
+</div><!-- /#its53d -->
+
+<!-- Start of first page: #its53e -->
+<div data-role="page" id="its53e">
+	<div data-role="header" data-position="fixed" data-theme="b">
+		<a href="#home" data-rel="back" data-iconpos="notext" data-icon="arrow-l" data-direction="reverse"></a>
+		<h1>ITS53: IT Project Services - Technical Specialist</h1>
+		<a href="#about_its53e" data-iconpos="notext" data-theme="c" data-icon="info" data-transition="slideup"></a>
+	</div>
+	<div id="its53e_body" data-role="content" style="text-align:left;">	
+			<ul data-role="listview" data-theme="c" data-divider-theme="b" >
+				<li><a href="#order">Ordering Instructions</a></li>
+				<li><a href="#vend">Vendor List</a></li>
+				<li><a href="http://www.mass.gov/anf/docs/osd/uguide/its53projservts.pdf" target="_blank">State Contract User Guide</a></li>				
+			</ul>
+ 		</div><!-- /content -->
+</div><!-- /#its53e -->
+
+<!-- Start of first page: #its58 -->
+<div data-role="page" id="its58">
+	<div data-role="header" data-position="fixed" data-theme="b">
+		<a href="#home" data-rel="back" data-iconpos="notext" data-icon="arrow-l" data-direction="reverse"></a>
+		<h1>ITS58: Software Reseller</h1>
+		<a href="#about_its58" data-iconpos="notext" data-theme="c" data-icon="info" data-transition="slideup"></a>
+	</div>
+	<div id="its58_body" data-role="content" style="text-align:left;">	
+			<ul data-role="listview" data-theme="c" data-divider-theme="b" >
+				<li><a href="#order">Ordering Instructions</a></li>
+				<li><a href="#vend">Vendor List</a></li>
+				<li><a href="http://www.mass.gov/anf/docs/osd/uguide/its58.pdf" target="_blank">State Contract User Guide</a></li>				
+			</ul>
+ 		</div><!-- /content -->
+</div><!-- /#its58 -->
+
+<!-- Start of first page: #itt12 -->
+<div data-role="page" id="itt12">
+	<div data-role="header" data-position="fixed" data-theme="b">
+		<a href="#home" data-rel="back" data-iconpos="notext" data-icon="arrow-l" data-direction="reverse"></a>
+		<h1>ITT12: Premises Based Tenant/Shared Switch Systems</h1>
+		<a href="#about_itt12" data-iconpos="notext" data-theme="c" data-icon="info" data-transition="slideup"></a>
+	</div>
+	<div id="itt12_body" data-role="content" style="text-align:left;">	
+			<ul data-role="listview" data-theme="c" data-divider-theme="b" >
+				<li><a href="#order">Ordering Instructions</a></li>
+				<li><a href="#vend">Vendor List</a></li>
+				<li><a href="http://www.mass.gov/anf/docs/osd/uguide/itt12.pdf" target="_blank">State Contract User Guide</a></li>				
+			</ul>
+ 		</div><!-- /content -->
+</div><!-- /#itt12 -->
+
+<!-- Start of first page: #itt19 -->
+<div data-role="page" id="itt19">
+	<div data-role="header" data-position="fixed" data-theme="b">
+		<a href="#home" data-rel="back" data-iconpos="notext" data-icon="arrow-l" data-direction="reverse"></a>
+		<h1>ITT19: Remote Access &amp; Virtual Private Networking Services</h1>
+		<a href="#about_itt19" data-iconpos="notext" data-theme="c" data-icon="info" data-transition="slideup"></a>
+	</div>
+	<div id="itt19_body" data-role="content" style="text-align:left;">	
+			<ul data-role="listview" data-theme="c" data-divider-theme="b" >
+				<li><a href="#order">Ordering Instructions</a></li>
+				<li><a href="#vend">Vendor List</a></li>
+				<li><a href="http://www.mass.gov/anf/docs/osd/uguide/itt19.pdf" target="_blank">State Contract User Guide</a></li>				
+			</ul>
+ 		</div><!-- /content -->
+</div><!-- /#itt19 -->
+
+<!-- Start of first page: #itt46 -->
+<div data-role="page" id="itt46">
+	<div data-role="header" data-position="fixed" data-theme="b">
+		<a href="#home" data-rel="back" data-iconpos="notext" data-icon="arrow-l" data-direction="reverse"></a>
+		<h1>ITT46: Network Services</h1>
+		<a href="#about_itt46" data-iconpos="notext" data-theme="c" data-icon="info" data-transition="slideup"></a>
+	</div>
+	<div id="itt46_body" data-role="content" style="text-align:left;">	
+			<ul data-role="listview" data-theme="c" data-divider-theme="b" >
+				<li><a href="#order">Ordering Instructions</a></li>
+				<li><a href="#vend">Vendor List</a></li>
+				<li><a href="http://www.mass.gov/anf/docs/osd/uguide/itt46.pdf" target="_blank">State Contract User Guide</a></li>				
+			</ul>
+ 		</div><!-- /content -->
+</div><!-- /#itt46 -->
+
+<!-- Start of first page: #itt50 -->
+<div data-role="page" id="itt50">
+	<div data-role="header" data-position="fixed" data-theme="b">
+		<a href="#home" data-rel="back" data-iconpos="notext" data-icon="arrow-l" data-direction="reverse"></a>
+		<h1>ITT50: Converged Voice and Data Communications Systems, Services &amp; Equipment</h1>
+		<a href="#about_itt50" data-iconpos="notext" data-theme="c" data-icon="info" data-transition="slideup"></a>
+	</div>
+	<div id="itt50_body" data-role="content" style="text-align:left;">	
+			<ul data-role="listview" data-theme="c" data-divider-theme="b" >
+				<li><a href="#order">Ordering Instructions</a></li>
+				<li><a href="#vend">Vendor List</a></li>
+				<li><a href="http://www.mass.gov/anf/docs/osd/uguide/itt50.pdf" target="_blank">State Contract User Guide</a></li>				
+			</ul>
+ 		</div><!-- /content -->
+</div><!-- /#itt50 -->
+<!-- IT END -->
+
+<!-- LAW START -->
+<!-- Start of first page: #law09 -->
+<div data-role="page" id="law09">
+	<div data-role="header" data-position="fixed" data-theme="b">
+		<a href="#home" data-rel="back" data-iconpos="notext" data-icon="arrow-l" data-direction="reverse"></a>
+		<h1>LAW09: Firearms, Ammunition, Related Training Products &amp; Services</h1>
+		<a href="#about_law09" data-iconpos="notext" data-theme="c" data-icon="info" data-transition="slideup"></a>
+	</div>
+	<div id="law09_body" data-role="content" style="text-align:left;">	
+			<ul data-role="listview" data-theme="c" data-divider-theme="b" >
+				<li><a href="#order">Ordering Instructions</a></li>
+				<li><a href="#vend">Vendor List</a></li>
+				<li><a href="http://www.mass.gov/anf/docs/osd/uguide/law09.pdf" target="_blank">State Contract User Guide</a></li>				
+			</ul>
+ 		</div><!-- /content -->
+</div><!-- /#law09 -->
+
+<!-- Start of first page: #law14 -->
+<div data-role="page" id="law14">
+	<div data-role="header" data-position="fixed" data-theme="b">
+		<a href="#home" data-rel="back" data-iconpos="notext" data-icon="arrow-l" data-direction="reverse"></a>
+		<h1>LAW14: Body Armor Vests</h1>
+		<a href="#about_law14" data-iconpos="notext" data-theme="c" data-icon="info" data-transition="slideup"></a>
+	</div>
+	<div id="law14_body" data-role="content" style="text-align:left;">	
+			<ul data-role="listview" data-theme="c" data-divider-theme="b" >
+				<li><a href="#order">Ordering Instructions</a></li>
+				<li><a href="#vend">Vendor List</a></li>
+				<li><a href="http://www.mass.gov/anf/docs/osd/uguide/law14.pdf" target="_blank">State Contract User Guide</a></li>				
+			</ul>
+ 		</div><!-- /content -->
+</div><!-- /#law14 -->
+<!-- LAW END -->
+
+<!-- OFFICE START -->
+<!-- Start of first page: #off35 -->
+<div data-role="page" id="off35">
+	<div data-role="header" data-position="fixed" data-theme="b">
+		<a href="#home" data-rel="back" data-iconpos="notext" data-icon="arrow-l" data-direction="reverse"></a>
+		<h1>OFF35: Art &amp; Instructional School Supplies</h1>
+		<a href="#about_off35" data-iconpos="notext" data-theme="c" data-icon="info" data-transition="slideup"></a>
+	</div>
+	<div id="off35_body" data-role="content" style="text-align:left;">	
+			<ul data-role="listview" data-theme="c" data-divider-theme="b" >
+				<li><a href="#order">Ordering Instructions</a></li>
+				<li><a href="#vend">Vendor List</a></li>
+				<li><a href="http://www.mass.gov/anf/docs/osd/uguide/off35.pdf" target="_blank">State Contract User Guide</a></li>				
+			</ul>
+ 		</div><!-- /content -->
+</div><!-- /#off35 -->
+
+<!-- Start of first page: #off36 -->
+<div data-role="page" id="off36">
+	<div data-role="header" data-position="fixed" data-theme="b">
+		<a href="#home" data-rel="back" data-iconpos="notext" data-icon="arrow-l" data-direction="reverse"></a>
+		<h1>OFF36: Office Supplies, Recycled Paper &amp; Envelopes</h1>
+		<a href="#about_off36" data-iconpos="notext" data-theme="c" data-icon="info" data-transition="slideup"></a>
+	</div>
+	<div id="off36_body" data-role="content" style="text-align:left;">	
+			<ul data-role="listview" data-theme="c" data-divider-theme="b" >
+				<li><a href="#order">Ordering Instructions</a></li>
+				<li><a href="#vend">Vendor List</a></li>
+				<li><a href="http://www.mass.gov/anf/docs/osd/uguide/off36.pdf" target="_blank">State Contract User Guide</a></li>				
+			</ul>
+ 		</div><!-- /content -->
+</div><!-- /#off36 -->
+
+<!-- Start of first page: #off38 -->
+<div data-role="page" id="off38">
+	<div data-role="header" data-position="fixed" data-theme="b">
+		<a href="#home" data-rel="back" data-iconpos="notext" data-icon="arrow-l" data-direction="reverse"></a>
+		<h1>OFF38: Office, School, &amp; Library Furniture, Accessories &amp; Installation</h1>
+		<a href="#about_off38" data-iconpos="notext" data-theme="c" data-icon="info" data-transition="slideup"></a>
+	</div>
+	<div id="off38_body" data-role="content" style="text-align:left;">	
+			<ul data-role="listview" data-theme="c" data-divider-theme="b" >
+				<li><a href="#order">Ordering Instructions</a></li>
+				<li><a href="#vend">Vendor List</a></li>
+				<li><a href="http://www.mass.gov/anf/docs/osd/uguide/off38.pdf" target="_blank">State Contract User Guide</a></li>				
+			</ul>
+ 		</div><!-- /content -->
+</div><!-- /#off38 -->
+
+<!-- Start of first page: #off27 -->
+<div data-role="page" id="off27">
+	<div data-role="header" data-position="fixed" data-theme="b">
+		<a href="#home" data-rel="back" data-iconpos="notext" data-icon="arrow-l" data-direction="reverse"></a>
+		<h1>OFF27: Document Solutions, Microfiche, Microfilm &amp; Imaging Equipment</h1>
+		<a href="#about_off27" data-iconpos="notext" data-theme="c" data-icon="info" data-transition="slideup"></a>
+	</div>
+	<div id="off27_body" data-role="content" style="text-align:left;">	
+			<ul data-role="listview" data-theme="c" data-divider-theme="b" >
+				<li><a href="#order">Ordering Instructions</a></li>
+				<li><a href="#vend">Vendor List</a></li>
+				<li><a href="http://www.mass.gov/anf/docs/osd/uguide/off27.pdf" target="_blank">State Contract User Guide</a></li>				
+			</ul>
+ 		</div><!-- /content -->
+</div><!-- /#off27 -->
+
+<!-- Start of first page: #off30 -->
+<div data-role="page" id="off30">
+	<div data-role="header" data-position="fixed" data-theme="b">
+		<a href="#home" data-rel="back" data-iconpos="notext" data-icon="arrow-l" data-direction="reverse"></a>
+		<h1>OFF30: Audio, Video, Studio Production, Presentation Equipment &amp; Supplies</h1>
+		<a href="#about_off30" data-iconpos="notext" data-theme="c" data-icon="info" data-transition="slideup"></a>
+	</div>
+	<div id="off30_body" data-role="content" style="text-align:left;">	
+			<ul data-role="listview" data-theme="c" data-divider-theme="b" >
+				<li><a href="#order">Ordering Instructions</a></li>
+				<li><a href="#vend">Vendor List</a></li>
+				<li><a href="http://www.mass.gov/anf/docs/osd/uguide/off30-30a.pdf" target="_blank">State Contract User Guide</a></li>				
+			</ul>
+ 		</div><!-- /content -->
+</div><!-- /#off30 -->
+
+<!-- Start of first page: #off32 -->
+<div data-role="page" id="off32">
+	<div data-role="header" data-position="fixed" data-theme="b">
+		<a href="#home" data-rel="back" data-iconpos="notext" data-icon="arrow-l" data-direction="reverse"></a>
+		<h1>OFF32: Photocopier/Fax Equipment &amp; Services</h1>
+		<a href="#about_off32" data-iconpos="notext" data-theme="c" data-icon="info" data-transition="slideup"></a>
+	</div>
+	<div id="off32_body" data-role="content" style="text-align:left;">	
+			<ul data-role="listview" data-theme="c" data-divider-theme="b" >
+				<li><a href="#order">Ordering Instructions</a></li>
+				<li><a href="#vend">Vendor List</a></li>
+				<li><a href="http://www.mass.gov/anf/docs/osd/uguide/off32.pdf" target="_blank">State Contract User Guide</a></li>				
+			</ul>
+ 		</div><!-- /content -->
+</div><!-- /#off32 -->
+
+<!-- Start of first page: #off43 -->
+<div data-role="page" id="off43">
+	<div data-role="header" data-position="fixed" data-theme="b">
+		<a href="#home" data-rel="back" data-iconpos="notext" data-icon="arrow-l" data-direction="reverse"></a>
+		<h1>OFF43: Small Package Delivery</h1>
+		<a href="#about_off43" data-iconpos="notext" data-theme="c" data-icon="info" data-transition="slideup"></a>
+	</div>
+	<div id="off43_body" data-role="content" style="text-align:left;">	
+			<ul data-role="listview" data-theme="c" data-divider-theme="b" >
+				<li><a href="#order">Ordering Instructions</a></li>
+				<li><a href="#vend">Vendor List</a></li>
+				<li><a href="http://www.mass.gov/anf/docs/osd/uguide/off43.pdf" target="_blank">State Contract User Guide</a></li>				
+			</ul>
+ 		</div><!-- /content -->
+</div><!-- /#off43 -->
+
+<!-- Start of first page: #off44 -->
+<div data-role="page" id="off44">
+	<div data-role="header" data-position="fixed" data-theme="b">
+		<a href="#home" data-rel="back" data-iconpos="notext" data-icon="arrow-l" data-direction="reverse"></a>
+		<h1>OFF44: Print/Copy/Mail Services &amp; Printed Promotional Products</h1>
+		<a href="#about_off44" data-iconpos="notext" data-theme="c" data-icon="info" data-transition="slideup"></a>
+	</div>
+	<div id="off44_body" data-role="content" style="text-align:left;">	
+			<ul data-role="listview" data-theme="c" data-divider-theme="b" >
+				<li><a href="#order">Ordering Instructions</a></li>
+				<li><a href="#vend">Vendor List</a></li>
+				<li><a href="http://www.mass.gov/anf/docs/osd/uguide/off44.pdf" target="_blank">State Contract User Guide</a></li>				
+			</ul>
+ 		</div><!-- /content -->
+</div><!-- /#off44 -->
+<!-- OFFICE END -->
+
+<!-- ROAD START -->
+<!-- Start of first page: #ovm08 -->
+<div data-role="page" id="ovm08">
+	<div data-role="header" data-position="fixed" data-theme="b">
+		<a href="#home" data-rel="back" data-iconpos="notext" data-icon="arrow-l" data-direction="reverse"></a>
+		<h1>OVM08: Windshield &amp; Glass Replacement for Vehicles</h1>
+		<a href="#about_ovm08" data-iconpos="notext" data-theme="c" data-icon="info" data-transition="slideup"></a>
+	</div>
+	<div id="ovm08_body" data-role="content" style="text-align:left;">	
+			<ul data-role="listview" data-theme="c" data-divider-theme="b" >
+				<li><a href="#order">Ordering Instructions</a></li>
+				<li><a href="#vend">Vendor List</a></li>
+				<li><a href="http://www.mass.gov/anf/docs/osd/uguide/ovm08.pdf" target="_blank">State Contract User Guide</a></li>				
+			</ul>
+ 		</div><!-- /content -->
+</div><!-- /#ovm08 -->
+
+<!-- Start of first page: #ovm09 -->
+<div data-role="page" id="ovm09">
+	<div data-role="header" data-position="fixed" data-theme="b">
+		<a href="#home" data-rel="back" data-iconpos="notext" data-icon="arrow-l" data-direction="reverse"></a>
+		<h1>OVM09: Short-Term Rental of Various Light Duty Vehicles</h1>
+		<a href="#about_ovm09" data-iconpos="notext" data-theme="c" data-icon="info" data-transition="slideup"></a>
+	</div>
+	<div id="ovm09_body" data-role="content" style="text-align:left;">	
+			<ul data-role="listview" data-theme="c" data-divider-theme="b" >
+				<li><a href="#order">Ordering Instructions</a></li>
+				<li><a href="#vend">Vendor List</a></li>
+				<li><a href="http://www.mass.gov/anf/docs/osd/uguide/ovm09.pdf" target="_blank">State Contract User Guide</a></li>				
+			</ul>
+ 		</div><!-- /content -->
+</div><!-- /#ovm09 -->
+
+<!-- Start of first page: #veh92 -->
+<div data-role="page" id="veh92">
+	<div data-role="header" data-position="fixed" data-theme="b">
+		<a href="#home" data-rel="back" data-iconpos="notext" data-icon="arrow-l" data-direction="reverse"></a>
+		<h1>VEH92: Traffic Safety Products</h1>
+		<a href="#about_veh92" data-iconpos="notext" data-theme="c" data-icon="info" data-transition="slideup"></a>
+	</div>
+	<div id="veh92_body" data-role="content" style="text-align:left;">	
+			<ul data-role="listview" data-theme="c" data-divider-theme="b" >
+				<li><a href="#order">Ordering Instructions</a></li>
+				<li><a href="#vend">Vendor List</a></li>
+				<li><a href="http://www.mass.gov/anf/docs/osd/uguide/veh92.pdf" target="_blank">State Contract User Guide</a></li>				
+			</ul>
+ 		</div><!-- /content -->
+</div><!-- /#veh92 -->
+
+<!-- Start of first page: #veh97 -->
+<div data-role="page" id="veh97">
+	<div data-role="header" data-position="fixed" data-theme="b">
+		<a href="#home" data-rel="back" data-iconpos="notext" data-icon="arrow-l" data-direction="reverse"></a>
+		<h1>VEH97: Tires, Tubes &amp; Services</h1>
+		<a href="#about_veh97" data-iconpos="notext" data-theme="c" data-icon="info" data-transition="slideup"></a>
+	</div>
+	<div id="veh97_body" data-role="content" style="text-align:left;">	
+			<ul data-role="listview" data-theme="c" data-divider-theme="b" >
+				<li><a href="#order">Ordering Instructions</a></li>
+				<li><a href="#vend">Vendor List</a></li>
+				<li><a href="http://www.mass.gov/anf/docs/osd/uguide/veh97.pdf" target="_blank">State Contract User Guide</a></li>				
+			</ul>
+ 		</div><!-- /content -->
+</div><!-- /#veh97 -->
+
+<!-- Start of first page: #ovm10 -->
+<div data-role="page" id="ovm10">
+	<div data-role="header" data-position="fixed" data-theme="b">
+		<a href="#home" data-rel="back" data-iconpos="notext" data-icon="arrow-l" data-direction="reverse"></a>
+		<h1>OVM10: Purchase of Vehicles</h1>
+		<a href="#about_ovm10" data-iconpos="notext" data-theme="c" data-icon="info" data-transition="slideup"></a>
+	</div>
+	<div id="ovm10_body" data-role="content" style="text-align:left;">	
+			<ul data-role="listview" data-theme="c" data-divider-theme="b" >
+				<li><a href="#order">Ordering Instructions</a></li>
+				<li><a href="#vend">Vendor List</a></li>
+				<li><a href="http://www.mass.gov/anf/docs/osd/uguide/ovm10.pdf" target="_blank">State Contract User Guide</a></li>				
+			</ul>
+ 		</div><!-- /content -->
+</div><!-- /#ovm10 -->
+
+<!-- Start of first page: #veh84 -->
+<div data-role="page" id="veh84">
+	<div data-role="header" data-position="fixed" data-theme="b">
+		<a href="#home" data-rel="back" data-iconpos="notext" data-icon="arrow-l" data-direction="reverse"></a>
+		<h1>VEH84: Fuel Card &amp; Fuel Management Services</h1>
+		<a href="#about_veh84" data-iconpos="notext" data-theme="c" data-icon="info" data-transition="slideup"></a>
+	</div>
+	<div id="veh84_body" data-role="content" style="text-align:left;">	
+			<ul data-role="listview" data-theme="c" data-divider-theme="b" >
+				<li><a href="#order">Ordering Instructions</a></li>
+				<li><a href="#vend">Vendor List</a></li>
+				<li><a href="http://www.mass.gov/anf/docs/osd/uguide/veh84.pdf" target="_blank">State Contract User Guide</a></li>				
+			</ul>
+ 		</div><!-- /content -->
+</div><!-- /#veh84 -->
+
+<!-- Start of first page: #veh84a -->
+<div data-role="page" id="veh84a">
+	<div data-role="header" data-position="fixed" data-theme="b">
+		<a href="#home" data-rel="back" data-iconpos="notext" data-icon="arrow-l" data-direction="reverse"></a>
+		<h1>VEH84A: Vehicle Maintenance Management Services &amp; Accident Subrogation Services</h1>
+		<a href="#about_veh84a" data-iconpos="notext" data-theme="c" data-icon="info" data-transition="slideup"></a>
+	</div>
+	<div id="veh84a_body" data-role="content" style="text-align:left;">	
+			<ul data-role="listview" data-theme="c" data-divider-theme="b" >
+				<li><a href="#order">Ordering Instructions</a></li>
+				<li><a href="#vend">Vendor List</a></li>
+				<li><a href="http://www.mass.gov/anf/docs/osd/uguide/veh84a.pdf" target="_blank">State Contract User Guide</a></li>				
+			</ul>
+ 		</div><!-- /content -->
+</div><!-- /#veh84a -->
+
+<!-- Start of first page: #veh93 -->
+<div data-role="page" id="veh93">
+	<div data-role="header" data-position="fixed" data-theme="b">
+		<a href="#home" data-rel="back" data-iconpos="notext" data-icon="arrow-l" data-direction="reverse"></a>
+		<h1>VEH93: Heavy Duty Vehicle</h1>
+		<a href="#about_veh93" data-iconpos="notext" data-theme="c" data-icon="info" data-transition="slideup"></a>
+	</div>
+	<div id="veh93_body" data-role="content" style="text-align:left;">	
+			<ul data-role="listview" data-theme="c" data-divider-theme="b" >
+				<li><a href="#order">Ordering Instructions</a></li>
+				<li><a href="#vend">Vendor List</a></li>
+				<li><a href="http://www.mass.gov/anf/docs/osd/uguide/veh93.pdf" target="_blank">State Contract User Guide</a></li>				
+			</ul>
+ 		</div><!-- /content -->
+</div><!-- /#veh93 -->
+
+<!-- Start of first page: #veh95 -->
+<div data-role="page" id="veh95">
+	<div data-role="header" data-position="fixed" data-theme="b">
+		<a href="#home" data-rel="back" data-iconpos="notext" data-icon="arrow-l" data-direction="reverse"></a>
+		<h1>VEH95: Sodium Chloride (Road Salt)</h1>
+		<a href="#about_veh95" data-iconpos="notext" data-theme="c" data-icon="info" data-transition="slideup"></a>
+	</div>
+	<div id="veh95_body" data-role="content" style="text-align:left;">	
+			<ul data-role="listview" data-theme="c" data-divider-theme="b" >
+				<li><a href="#order">Ordering Instructions</a></li>
+				<li><a href="#vend">Vendor List</a></li>
+				<li><a href="http://www.mass.gov/anf/docs/osd/uguide/veh95.pdf" target="_blank">State Contract User Guide</a></li>				
+			</ul>
+ 		</div><!-- /content -->
+</div><!-- /#veh95 -->
+
+<!-- Start of first page: #veh96 -->
+<div data-role="page" id="veh96">
+	<div data-role="header" data-position="fixed" data-theme="b">
+		<a href="#home" data-rel="back" data-iconpos="notext" data-icon="arrow-l" data-direction="reverse"></a>
+		<h1>VEH96: OEM &amp; Non-OEM Motorized Vehicle Parts, Refined Motor Oil &amp; Lubricants </h1>
+		<a href="#about_veh96" data-iconpos="notext" data-theme="c" data-icon="info" data-transition="slideup"></a>
+	</div>
+	<div id="veh96_body" data-role="content" style="text-align:left;">	
+			<ul data-role="listview" data-theme="c" data-divider-theme="b" >
+				<li><a href="#order">Ordering Instructions</a></li>
+				<li><a href="#vend">Vendor List</a></li>
+				<li><a href="http://www.mass.gov/anf/docs/osd/uguide/veh96.pdf" target="_blank">State Contract User Guide</a></li>				
+			</ul>
+ 		</div><!-- /content -->
+</div><!-- /#veh96 -->
+<!-- ROADS END -->
+
+
+<!-- Start of first page: #order -->
+<div data-role="page" id="order">
+	<div data-role="header" data-position="fixed" data-theme="b">
+		<a href="#home" data-rel="back" data-iconpos="notext" data-icon="arrow-l" data-direction="reverse"></a>
+		<h1>Ordering Instructions</h1>
+		<a href="#about_order" data-iconpos="notext" data-theme="c" data-icon="info" data-transition="slideup"></a>
+	</div>
+	<div id="order_body" data-role="content" style="text-align:left;">	
+			<ul data-role="listview" data-theme="c" data-divider-theme="b">
+				<p class="order1"><strong><u>Choose a State Contract</u></strong></p>
+					<p class="order2">The Commonwealth buys goods and services in many categories, so if you are unsure which state contract to use, start 
+					by <a href="#find">Searching for a Contract</a> or browsing the <a href="http://www.mass.gov/anf/docs/osd/epp/statewide-contract-index.xlsx">Statewide Contract Index</a>.</p>
+				<br>
+				<p class="order2"><strong><u>Get a Quote</u></strong></p>
+					<p class="order2">Once you know which state contract you need to use, solicit cost estimates from multiple vendors (if possible) and select the 
+					vendor who offers the best value for the City.  After selecting a vendor, obtain a quote from that vendor for the exact 
+					goods or services you need, making sure to <u><em>reference the state contract number</em></u> when obtaining the quote.  
+					This is extremely important in order to ensure the City is getting the proper contract pricing.</p>  
+				<br>
+				<p class="order2"><strong><u>Submit a Purchase Order</u></strong></p>
+					<p class="order2">Once you have a quote that references the state contract number, attach it to the Purchase Order you submit to the
+					Purchasing Department.
+					<br><br>
+					<strong>PLEASE NOTE</strong>: Blanket Purchase Orders must be sent to the designated sales representative listed on the state contract!</p>
+			</ul>
+			<br><br>
+			<a href="#home"><button type="button">Home</button></a>
+			
+ 	</div><!-- /content -->
+</div><!-- /#order -->
+ 	
+</body>
+</html>
